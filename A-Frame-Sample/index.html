@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <title>AR-Torii</title>
+    </head>
+    <body style="margin:0px; overflow:hidden;">
+        アクセス後にカメラを許可し、マーカーをカメラ内に収めるとモデル表示されます。
+        <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+        <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+        <a-scene embedded arjs="debugUIEnabled:false;" "sourceType: webcam;" renderer="gammaOutPut: true;" vr-mode-ui="enabled: false">
+            <a-assets>
+                <a-asset-item id="torii" src="torii.glb"></a-asset-item>
+            </a-assets>  
+            <a-marker 
+            markerhandler
+            emitevents="true"
+            cursor="fuse: false; rayOrigin: mouse"
+            preset="custom" 
+            type='pattern' 
+            url="./torii.patt">
+            <a-entity
+            gltf-model="#mystyle"
+            scale="2 2 2"
+            rotation="0 0 0"></a-entity>
+
+            </a-marker>
+
+            <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>
