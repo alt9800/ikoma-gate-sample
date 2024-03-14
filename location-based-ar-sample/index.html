@@ -23,15 +23,21 @@
                 ></a-asset-item>
             </a-assets>
 
-                <a-entity
-                    look-at="[gps-camera]"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
-                    scale="2000.0474147874240508 2000.0474147874240508 2000.0474147874240508"
-                    gps-entity-place="latitude: 33.57445070388437; longitude: 130.34899810329082;"
-                ></a-entity>
+            <a-box
+            material="color: red"
+            gps-entity-place="latitude: 33.57454772056982; longitude: 130.34897934144254;"
+            scale="30 30 30"
+            ></a-box>
 
-            <a-camera gps-camera rotation-reader></a-camera>
+            <a-entity
+                look-at="[gps-camera]"
+                animation-mixer="loop: repeat"
+                gltf-model="#animated-asset"
+                scale="20 20 20"
+                gps-entity-place="latitude: 33.57454772056982; longitude: 130.34897934144254;"
+            ></a-entity>, 
+
+            <a-camera gps-camera="gpsMinDistance:10;" rotation-reader></a-camera>
         </a-scene>
     </body>
 </html>
