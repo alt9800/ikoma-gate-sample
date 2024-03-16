@@ -10,7 +10,7 @@
 
 [Location Base template](./location-based-ar-sample/)
 
-[👷Location Base(box)]()
+[👷Location Base(box)](./location-based-boxsample/)
 
 [👷Location Base(ikoma)]()
 
