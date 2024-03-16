@@ -2,13 +2,15 @@
 
 [A-Frame](./A-Frame-Sample)
 
+├[👷torii(ikoma-Emblem)](./A-Frame-ikoma-Emblem/)
+
+└[👷torii(torii-Icon)](./A-Frame-ikoma-toriiIcon/)
+
 [modelview](./AR-VR-Sample)
 
-[Location Base](./location-based-ar-sample/)
+[Location Base template](./location-based-ar-sample/)
+
+[👷Location Base(box)]()
 
 [👷Location Base(ikoma)]()
-
-[👷torii(ikoma-Emblem)](./A-Frame-ikoma-Emblem/)
-
-[👷torii(torii-Icon)](./A-Frame-ikoma-toriiIcon/)
 
