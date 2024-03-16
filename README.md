@@ -8,7 +8,7 @@
 
 [👷Location Base(ikoma)]()
 
-[👷torii(ikoma-Emblem)]()
+[👷torii(ikoma-Emblem)](./A-Frame-ikoma-Emblem/)
 
-[👷torii(torii-Icon)]()
+[👷torii(torii-Icon)](./A-Frame-ikoma-toriiIcon/)
 
