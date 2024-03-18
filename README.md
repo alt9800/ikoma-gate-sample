@@ -12,5 +12,5 @@
 
 [👷Location Base(box)](./location-based-boxsample/)
 
-[👷Location Base(ikoma)](/location-based-ikoma/)
+[👷Location Base(ikoma)](./location-based-ikoma/)
 
