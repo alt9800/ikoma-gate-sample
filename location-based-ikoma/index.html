@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+    </head>
+<body>
+    <a-scene>
+        <a-box
+        material="color: yellow"
+        gps-entity-place="latitude: 34.69276012963216; longitude: 135.6970057607354;"
+        position="50 40 0"
+    />
+    <a-assets>
+        <a-asset-item id="torii" src="torii.glb"></a-asset-item>
+    </a-assets>  
+    <a-entity
+    gltf-model="#torii"
+    scale="0.075 0.075 0.075"
+    rotation="0 0 0"
+    position="50 30 0"
+    ></a-entity>
+
+
+    <a-camera gps-camera rotation-reader></a-camera>
+    </a-scene>
+
+</body>
+</html>
