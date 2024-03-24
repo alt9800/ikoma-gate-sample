@@ -14,10 +14,9 @@
             <a-asset-item id="3d-model" src="./assets/asset.glb"></a-asset-item>
         </a-assets>
 
-        <a-gltf-model src="#3d-model" 
-            gps-entity-place="latitude: 33.591519; longitude: 130.389738;"
-            scale="0.2 0.2 0.2">
-        </a-gltf-model>
+        <a-anchor hit-test-enabled='true'>
+            <a-gltf-model src="#3d-model" scale="0.5 0.5 0.5"></a-gltf-model>
+          </a-anchor>
 
         <a-camera gps-camera rotation-reader></a-camera>
     </a-scene>
