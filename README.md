@@ -8,9 +8,11 @@
 
 [modelview](./AR-VR-Sample)
 
-[Location Base template](./location-based-ar-sample/)
+[Location Base](./location-based-ar-sample/)
 
-[👷Location Base(box)](./location-based-boxsample/)
+[👷Location Base template](./location-based-ar-sample-template/)
+
+[■Location Base(box)](./location-based-box-sample/)
 
 [👷Location Base(ikoma)](./location-based-ikoma/)
 
