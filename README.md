@@ -16,10 +16,6 @@ model-viewerを使ったサンプル
 [Location Base(anchor)](./location-based-ar-sample-anchor)
 上記のanchor版を使ってる
 
-[Location Base(gltf)](./location-based-ar-sample/)
-
-[Location Base(anchor)](./location-based-ar-sample-anchor)
-
 
 [👷Location Base template](./location-based-ar-sample-template/)
 
