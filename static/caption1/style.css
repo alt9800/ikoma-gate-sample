@@ -53,6 +53,22 @@ header img {
   border-radius: 12px;
 }
 
+/*場所の説明書きの調整*/
+.description {
+  width: 636px;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Hiragino Mincho ProN', serif;
+  font-weight: 300;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 auto; /* 横方向の中央揃え */
+}
+
+.description p {
+  margin: 0; /* pタグの余白をリセット */
+  opacity: 1;
+}
+
 /*地図について*/
 .container img.map {
   max-width: 600px; /* 画像の最大幅を500pxに設定 */
