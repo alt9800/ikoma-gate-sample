@@ -29,5 +29,5 @@ model-viewerを使ったサンプル
 
 
 static
+
 ├[caption1](./static/caption1/)
-├[caption1+](./static/caption1+/)
