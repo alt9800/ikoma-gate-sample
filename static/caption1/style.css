@@ -1,14 +1,29 @@
 header {
-  text-align: center; /* ヘッダー内のコンテンツを中央揃えに */
-  padding: 20px; /* ヘッダーの内側余白 */
+  text-align: center;
+  padding: 20px;
+}
+
+header a {
+  display: inline-block; /* リンクをブロック化する */
 }
 
 header img {
-  max-width: 300px; /* ロゴ画像の最大幅 */
-  height: auto; /* 画像の高さを自動調整 */
+  max-width: 300px;
+  height: auto;
 }
 
+/*ヘッダーにアニメーションを適用しておく*/
+header a {
+  display: inline-block;
+  text-decoration: none; /* 下線を消す */
+  transition: opacity 0.3s; /* ホバー時のアニメーション */
+}
 
+header a:hover {
+  opacity: 0.8; /* ホバー時の不透明度 */
+}
+
+/*全体で中央揃えなどする*/
 .container {
   max-width: 800px; /* コンテナの最大幅 */
   margin: 0 auto; /* 上下の余白を0に、左右の余白を自動で中央寄せ */
@@ -16,7 +31,9 @@ header img {
   background-color: #f9f9f9; /* 背景色を薄いグレーに設定 */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を付ける */
   text-align: center; /* コンテナ内のテキストを中央揃えに */
+  margin-bottom: 40px; /* フッターとの間の余白 */
 }
+
 /* for Desktops */
 .container {
   max-width: 800px;
