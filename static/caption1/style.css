@@ -17,6 +17,27 @@ header img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を付ける */
   text-align: center; /* コンテナ内のテキストを中央揃えに */
 }
+/* for Desktops */
+.container {
+  max-width: 800px;
+  /* 他のデスクトップ用スタイル */
+}
+
+/* for Tablets */
+@media (max-width: 768px) {
+  .container {
+    max-width: 600px;
+    /* タブレット用のスタイル */
+  }
+}
+
+/* for Smartphones */
+@media (max-width: 480px) {
+  .container {
+    max-width: 90%;
+    /* スマートフォン用のスタイル */
+  }
+}
 
 .container img {
   display: block; /* 画像を中央揃えするために必要 */
@@ -30,6 +51,12 @@ header img {
   max-width: 100%; /* 親要素の大きさを超えないようにする */
   height: auto;
   border-radius: 12px;
+}
+
+/*地図について*/
+.container img.map {
+  max-width: 600px; /* 画像の最大幅を500pxに設定 */
+  height: auto; /* 高さは自動調整されるようにする */
 }
 
 
