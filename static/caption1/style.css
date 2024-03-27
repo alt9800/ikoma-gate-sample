@@ -34,6 +34,8 @@ header a:hover {
   margin-bottom: 40px; /* フッターとの間の余白 */
 }
 
+/*レスポンシブ対応用*/
+
 /* for Desktops */
 .container {
   max-width: 800px;
@@ -61,6 +63,16 @@ header a:hover {
   margin: 0 auto; /* 上下の余白を0に、左右の余白を自動で中央寄せ */
   max-width: 100%; /* 画像の最大幅をコンテナの幅に合わせる */
   height: auto; /* 画像の高さを自動調整して縦横比を維持 */
+}
+
+/*アニメーション監視*/
+#title-section, #image-section, #description-section {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#title-section.show, #image-section.show, #description-section.show {
+  opacity: 1;
 }
 
 /*タイトル部分*/
