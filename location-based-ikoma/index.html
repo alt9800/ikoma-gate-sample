@@ -11,15 +11,14 @@
 <body style="margin: 0; overflow: hidden;">
     <a-scene vr-mode-ui="enabled: false" embedded arjs="sourceType: webcam; debugUIEnabled: false;">
         <a-assets>
-            <!-- a-asset-item id="3d-model" src="./scan-ikoma-gate-2024-03-19.glb"></a-asset-item-->
-        <a-asset-item id="3d-model" src="./modi-decimate.glb"></a-asset-item>
+            <!-- a-asset-item id="3d-model" src="./assets/asset.glb"></a-asset-item-->
+            <!-- 一旦ローポリにしたモデルが実験基地で表示されるか試す-->
+            <a-asset-item id="3d-model" src="./modi-decimate.glb"></a-asset-item>
         </a-assets>
-        <!-- a-anchor hit-test-enabled='true'>
-            <a-gltf-model  load-animations="true" src="#3d-model" scale="0.5 0.5 0.5"></a-gltf-model>
-        </a-anchor-->
+
         <a-gltf-model src="#3d-model" 
-        gps-entity-place="latitude: 33.591519; longitude: 130.389738;"
-        scale="4 4 4">
+            gps-entity-place="latitude: 33.591519; longitude: 130.389738;"
+            scale="4 4 4">
         </a-gltf-model>
 
         <a-camera gps-camera rotation-reader></a-camera>
