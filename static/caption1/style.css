@@ -10,7 +10,11 @@ header img {
 
 
 .container {
-  /* 前回追加したスタイルは省略 */
+  max-width: 800px; /* コンテナの最大幅 */
+  margin: 0 auto; /* 上下の余白を0に、左右の余白を自動で中央寄せ */
+  padding: 20px; /* コンテナの内側余白 */
+  background-color: #f9f9f9; /* 背景色を薄いグレーに設定 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を付ける */
   text-align: center; /* コンテナ内のテキストを中央揃えに */
 }
 
