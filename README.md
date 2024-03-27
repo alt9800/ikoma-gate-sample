@@ -25,3 +25,7 @@ model-viewerを使ったサンプル
 [🤞Location Base(ikoma)](./location-based-ikoma/)
 生駒の実際の鳥居モデルを表示している
 
+
+
+static
+├[caption1](./static/caption1/)
