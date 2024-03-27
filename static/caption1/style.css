@@ -21,6 +21,14 @@ header img {
   height: auto; /* 画像の高さを自動調整して縦横比を維持 */
 }
 
+
+.main-image img {
+  max-width: 100%; /* 親要素の大きさを超えないようにする */
+  height: auto;
+  border-radius: 12px;
+}
+
+
 footer {
   background-color: #f2f2f2; /* 背景色を薄いグレーに設定 */
   color: #666; /* テキストの色を暗めのグレーに設定 */
